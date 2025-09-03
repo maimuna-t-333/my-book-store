@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <section className="py-16 bg-[#DCD7C9]">
-      <div className="max-w-6xl mx-auto px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-12">
+    <section className="py-16  bg-[#DCD7C9]">
+      <div className="max-w-6xl mx-auto px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-20">
         
         {/* Image */}
         <div className="flex-1">
