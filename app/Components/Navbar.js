@@ -1,16 +1,16 @@
 export default function Navbar() {
   return (
-    <div className="navbar bg-[#222831] text-white shadow-md px-10">
+    <div className="navbar bg-[#2C3639] text-white shadow-md px-10">
       {/* Left Section */}
       <div className="flex-1">
-        <a className="btn btn-ghost normal-case text-xl">BookStore</a>
+        <a className=" normal-case text-2xl">BookStore</a>
       </div>
 
       {/* Right Section */}
       <div className="flex-none">
         {/* Mobile Dropdown */}
         <div className="dropdown dropdown-end md:hidden">
-          <label tabIndex={0} className="btn btn-ghost btn-circle">
+          <label tabIndex={0} className="btn  btn-circle">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -31,7 +31,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="menu menu-horizontal px-1  hidden md:flex">
+        <ul className="menu menu-horizontal px-1 hidden md:flex">
           <li><a>Home</a></li>
           <li><a>Categories</a></li>
           <li><a>About</a></li>
